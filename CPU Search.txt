@@ -1,13 +1,33 @@
-﻿(H01L*).IPC. AND (((인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*)) OR (PIM OR ((Process OR Processing) ADJ2 memory)) OR (지능*)) 
-AND (((뉴로* ADJ2 모픽*) OR neuromorphic OR 시냅스 OR synapse OR 뉴런) OR (크로스바 OR crossbar)) OR ((매니* ADJ2 코어*) OR (Many ADJ2 core) OR (Many ADJ2 core))
+﻿1. 
+(H01L*).IPC. AND (((인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*)) OR (PIM OR ((Process OR Processing) ADJ2 memory)) OR (지능*)) 
+AND ((((뉴로* ADJ2 모픽*) OR neuromorphic) OR (시냅스 OR synapse OR 뉴런)) OR (크로스바 OR crossbar)) OR ((매니* ADJ2 코어*) OR (Many ADJ2 core))
 
-(인공지능 OR PIM OR 지능형) AND (뉴로모픽 OR 크로스바) OR (매니코어)
+(인공지능 OR PIM OR 지능형) AND (뉴로모픽 OR 크로스바) OR (매니코어) OR (시냅스)
 
 대 : (인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*)
       PIM OR ((Process OR Processing) ADJ2 memory)
       지능*
 
-중 : (뉴로* ADJ2 모픽*) OR neuromorphic OR 시냅스 OR synapse OR 뉴런
+중 : (뉴로* ADJ2 모픽*) OR neuromorphic
      크로스바 OR crossbar
      (매니* ADJ2 코어*) OR (Many ADJ2 core)
-소 : 
+
+소(뉴로모픽) : 시냅스 OR synapse OR 뉴런
+
+
+2. process, memory 와 같은 단어 때문에 이상한 특허도 검색돼서 빼버림
+
+(H01L*).IPC. AND (((인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*)) OR (PIM) OR (지능*)) 
+AND ((((뉴로* ADJ2 모픽*) OR neuromorphic) OR (시냅스 OR synapse OR 뉴런)) OR (크로스바 OR crossbar)) OR ((매니* ADJ2 코어*) OR (Many ADJ2 core))
+
+(인공지능 OR PIM OR 지능형) AND (뉴로모픽 OR 크로스바) OR (매니코어) OR (시냅스)
+
+대 : (인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*)
+      PIM
+      지능*
+
+중 : (뉴로* ADJ2 모픽*) OR neuromorphic
+     크로스바 OR crossbar
+     (매니* ADJ2 코어*) OR (Many ADJ2 core)
+
+소(뉴로모픽) : 시냅스 OR synapse OR 뉴런
