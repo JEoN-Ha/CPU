@@ -1,1 +1,7 @@
-(H01M*).IPC.
+(H01M*).IPC. AND ((굽힘* ADJ2 가능한*) OR 플렉시블* OR 플렉서블* OR flexible OR 밴더블* OR Bendable OR 폴더블* OR Foldable OR 롤러블* OR Rollable OR 커브드* OR curved OR 케이블* OR Cable) 
+AND (배터리* OR (2차* ADJ2 전지*) OR battery)
+
+(굽힘 가능한) AND (배터리)
+
+((굽힘* ADJ2 가능한*) OR 플렉시블* OR 플렉서블* OR flexible OR 밴더블* OR Bendable OR 폴더블* OR Foldable OR 롤러블* OR Rollable OR 커브드* OR curved) OR 케이블* OR Cable
+배터리* OR (2차* ADJ2 전지*) OR battery
