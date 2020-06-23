@@ -1,6 +1,6 @@
 ﻿
-(H01L*).IPC. AND (((인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*)) OR (PIM OR (process-in-memory)) OR (지능*) OR (DNN* OR SNN*))
-AND (((뉴로* ADJ2 모픽*) OR neuromorphic*) OR (시냅* OR synap* OR 뉴런* OR neuron* OR 뉴럴* OR neural*) OR (크로스바* OR crossbar*) OR ((매니 ADJ2 코어*) OR (Many ADJ2 core) OR (Many-core)))
+(H01L*).IPC. AND (((인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*)) OR (PIM* OR (Process* ADJ2 memory*)) OR (지능*) OR (DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*)) OR 스파이*)
+AND (((뉴로* ADJ2 모픽*) OR neuromorphic*) OR (시냅* OR synap* OR 뉴런* OR neuron* OR 뉴럴* OR neural* OR (뇌* OR 두뇌*) OR Brain* OR (신경* ADJ2 모방*)) OR (크로스바* OR crossbar*) OR ((매니 ADJ2 코어*) OR (Many ADJ2 core*)))
 
 
 
@@ -11,17 +11,17 @@ AND (((뉴로* ADJ2 모픽*) OR neuromorphic*) OR (시냅* OR synap* OR 뉴런* 
 
 중 : 
 AND (
-(인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*) OR (DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*) OR STDP*) OR (스파이*)
-OR PIM OR (Process* ADJ2 memory) 
+(인공* ADJ2 지능*) OR AI OR (artificial* ADJ2 intelligence*) OR (DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*)) OR 스파이*
+OR PIM* OR (Process* ADJ2 memory*) 
 OR 지능*
 )
 
 소 : 
 AND (
-(뉴로* ADJ2 모픽*) OR neuromorphic
-OR 크로스바 OR crossbar
-OR (매니 ADJ2 코어*) OR (Many ADJ2 core)
-OR 시냅* OR synap* OR 뉴런 OR neuron* OR 뉴럴 OR neural* OR (뇌 OR 두뇌) OR (Brain) OR (신경모방)
+(뉴로* ADJ2 모픽*) OR neuromorphic*
+OR 시냅* OR synap* OR 뉴런 OR neuron* OR 뉴럴 OR neural* OR (뇌* OR 두뇌*) OR Brain* OR (신경* ADJ2 모방*)
+OR 크로스바* OR crossbar*
+OR (매니 ADJ2 코어*) OR (Many ADJ2 core*)
 )
 
 
@@ -29,6 +29,4 @@ OR 시냅* OR synap* OR 뉴런 OR neuron* OR 뉴럴 OR neural* OR (뇌 OR 두뇌
 중 (인공지능)
 소 (뉴로모픽 크로스바 전문적인 용어)
 
-보류 : STDP 
-
-
+보류 : STDP (Spiking* ADJ2 Timing* ADJ2 Dependent* ADJ2 Plasticity*)
