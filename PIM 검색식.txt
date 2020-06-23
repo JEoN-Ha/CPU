@@ -25,8 +25,8 @@ OR 시냅* OR synap* OR 뉴런 OR neuron* OR 뉴럴 OR neural* OR (뇌* OR 두�
 OR 크로스바* OR crossbar*
 OR (매니 ADJ2 코어*) OR (Many ADJ2 core*)
 OR (FPGA OR 재구성* OR 에프피지* OR 에프피쥐*)
-OR
-OR
+OR (ASIC* OR 에이직* OR 주문형반도체* OR application-specific* OR (application ADJ2 specific))
+OR (soc* OR system-on-chip OR* OR 에스오씨* OR 시스템온칩*)
 )
 
 
