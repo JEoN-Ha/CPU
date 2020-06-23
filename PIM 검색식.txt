@@ -9,7 +9,7 @@ AND ((뉴로* ADJ2 모픽*) OR neuromorphic* OR 시냅* OR synap* OR 뉴런 OR n
 
 대 : 
 AND (
-(메모리 OR memory) OR (비메모리 OR non-memory)
+(메모리* OR memory*) OR (비메모리* OR non-memory*)
 OR ((integrated ADJ2 circuit) OR 집적-회로* OR 집적회로*)
 OR PIM* OR (Process* ADJ2 memory*)
 )
