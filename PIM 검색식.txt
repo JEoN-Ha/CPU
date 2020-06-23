@@ -4,7 +4,7 @@ AND (((뉴로* ADJ2 모픽*) OR neuromorphic*) OR (시냅* OR synap* OR 뉴런* 
 
 
 
-(인공지능 OR PIM OR 지능형) AND ((뉴로모픽 OR 크로스바) OR (매니코어) OR (시냅스))
+(인공지능 OR 지능형) AND ((뉴로모픽 OR 크로스바) OR (매니코어) OR (시냅스))
 
 
 대 : 
