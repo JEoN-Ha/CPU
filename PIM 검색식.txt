@@ -1,38 +1,53 @@
-﻿
-(H01L*).IPC. 
-
-AND ((메모리* OR memory*) OR (비메모리* OR non-memory*) OR ((integrated ADJ2 circuit*) OR (집적 ADJ2 회로*)) OR PIM* OR (프로세* ADJ2 메모리*) (Process* ADJ2 memory*))
-AND ((인공* ADJ2 지능*) OR (artificial* ADJ2 intelligence*) OR (딥러닝* OR DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*)) OR 스파이* OR 지능*) 
-AND ((뉴로* ADJ2 모픽*) OR neuromorphic* OR 시냅* OR synap* OR 뉴런* OR neuron* OR 뉴럴* OR neural* OR (뇌* OR 두뇌*) OR Brain* OR (신경* ADJ2 모방*) OR 크로스바* OR crossbar* 
-OR (매니 ADJ2 코어*) OR (Many ADJ2 core*) OR (FPGA* OR 재구성* OR Reconfigurable* OR 에프피지* OR 에프피쥐*) OR (ASIC* OR 에이직* OR 주문형반도체* OR application-specific* OR (application ADJ2 specific))
-OR (soc* OR system-on-chip* OR 에스오씨* OR 시스템온칩*))
-
-(집적회로 OR PIM) AND (인공지능 OR 지능형) AND ((뉴로모픽 OR 크로스바) OR (매니코어) OR (시냅스) OR (FPGA) OR (ASIC) OR (SoC))
-
-
-대 : 
-AND (
-(메모리* OR memory*) OR (비메모리* OR non-memory*)
-OR ((integrated ADJ2 circuit) OR (집적 ADJ2 회로*))
-OR (프로세* ADJ2 메모리*) OR PIM* OR (Process* ADJ2 memory*)
+﻿(H01L*).IPC.
+AND(
+(Near-Data-Process* OR NDP* OR (Near* ADJ Data* ADJ Process*)  OR (데이터* NEAR2 프로세*))
+OR (Data-Centric-Comput* OR Data-driven-Comput* OR DDC* OR (Data* ADJ (Centric* OR drive*) ADJ Comput*) OR (데이터* ADJ 중심* ADJ 컴퓨*) OR (데이터* NEAR2 컴퓨*))
 )
-
-중 : 
+AND((PIM* OR (Process* NEAR2 memor*) OR (in-memor* OR (in ADJ memor*) OR (IMDG* OR In-memory-data-grid* OR (In ADJ memor* ADJ data* ADJ grid*)) OR (프로세* NEAR2 메모리*) OR 인메모리* OR (인 ADJ 메모리*)))
+OR (NMP* OR(Near-Memory-Process*) OR (Near* NEAR2 Memor* NEAR2 Process*)  OR PNM* OR (Processing-Near-Memory*) OR (Proces* ADJ2 Near* ADJ2 Memor* ) OR (니어*  NEAR2 메모리* NEAR2 프로세*) OR (프로세* NEAR2 니어* NEAR2 메모리*))
+OR (In-Storage-Processing* OR (Storage* ADJ Process*) OR ISP* OR (스토리지* NEAR2 프로세*))
+OR ((MDP* OR Memory-Driven-Process* OR (Memor* ADJ2 Driven* ADJ2 Process*) OR MCP* OR Memory-centric-Process* OR (Memor* ADJ2 Centric* ADJ2 Process*) OR (메모리* NEAR2 중심* NEAR2 컴퓨*)))
+)
 AND (
 (인공* ADJ2 지능*) OR (artificial* ADJ2 intelligence*) OR (딥러닝* OR DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*)) OR 스파이*
 OR 지능*
-)
-
-소 : 
-AND (
-(뉴로* ADJ2 모픽*) OR neuromorphic*
+OR (뉴로* ADJ2 모픽*) OR neuromorphic*
 OR 시냅* OR synap* OR 뉴런* OR neuron* OR 뉴럴* OR neural* OR (뇌* OR 두뇌*) OR Brain* OR (신경* ADJ2 모방*)
 OR 크로스바* OR crossbar*
 OR (매니 ADJ2 코어*) OR (Many ADJ2 core*)
 OR (FPGA* OR 재구성* OR Reconfigurable* OR 에프피지* OR 에프피쥐*)
 OR (ASIC* OR 에이직* OR 주문형반도체* OR application-specific* OR (application ADJ2 specific))
 OR (soc* OR system-on-chip* OR 에스오씨* OR 시스템온칩*)
-OR ()
+)
+
+(NDP OR DDC OR DCC) AND  AND ((인공지능 OR 지능형) OR (뉴로모픽 OR 크로스바) OR (매니코어) OR (시냅스) OR (FPGA) OR (ASIC) OR (SoC))
+
+
+대 :
+(H01L*).IPC.
+AND(
+(Near-Data-Process* OR NDP* OR (Near* ADJ Data* ADJ Process*)  OR (데이터* NEAR2 프로세*))
+OR (Data-Centric-Comput* OR Data-driven-Comput* OR DDC* OR (Data* ADJ (Centric* OR drive*) ADJ Comput*) OR (데이터* ADJ 중심* ADJ 컴퓨*) OR (데이터* NEAR2 컴퓨*))
+)
+
+중 : 
+AND((PIM* OR (Process* NEAR2 memor*) OR (in-memor* OR (in ADJ memor*) OR (IMDG* OR In-memory-data-grid* OR (In ADJ memor* ADJ data* ADJ grid*)) OR (프로세* NEAR2 메모리*) OR 인메모리* OR (인 ADJ 메모리*)))
+OR (NMP* OR(Near-Memory-Process*) OR (Near* NEAR2 Memor* NEAR2 Process*)  OR PNM* OR (Processing-Near-Memory*) OR (Proces* ADJ2 Near* ADJ2 Memor* ) OR (니어*  NEAR2 메모리* NEAR2 프로세*) OR (프로세* NEAR2 니어* NEAR2 메모리*))
+OR (In-Storage-Processing* OR (Storage* ADJ Process*) OR ISP* OR (스토리지* NEAR2 프로세*))
+OR ((MDP* OR Memory-Driven-Process* OR (Memor* ADJ2 Driven* ADJ2 Process*) OR MCP* OR Memory-centric-Process* OR (Memor* ADJ2 Centric* ADJ2 Process*) OR (메모리* NEAR2 중심* NEAR2 컴퓨*)))
+)
+
+소 : 
+AND (
+(인공* ADJ2 지능*) OR (artificial* ADJ2 intelligence*) OR (딥러닝* OR DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*)) OR 스파이*
+OR 지능*
+OR (뉴로* ADJ2 모픽*) OR neuromorphic*
+OR 시냅* OR synap* OR 뉴런* OR neuron* OR 뉴럴* OR neural* OR (뇌* OR 두뇌*) OR Brain* OR (신경* ADJ2 모방*)
+OR 크로스바* OR crossbar*
+OR (매니 ADJ2 코어*) OR (Many ADJ2 core*)
+OR (FPGA* OR 재구성* OR Reconfigurable* OR 에프피지* OR 에프피쥐*)
+OR (ASIC* OR 에이직* OR 주문형반도체* OR application-specific* OR (application ADJ2 specific))
+OR (soc* OR system-on-chip* OR 에스오씨* OR 시스템온칩*)
 )
 
 대 (반도체 용어) 
