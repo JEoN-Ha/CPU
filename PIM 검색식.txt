@@ -54,3 +54,7 @@ OR (soc* OR system-on-chip* OR 에스오씨* OR 시스템온칩*)
 소 (뉴로모픽 크로스바 전문적인 용어)
 
 보류 : STDP (Spiking* ADJ2 Timing* ADJ2 Dependent* ADJ2 Plasticity*)
+
+IPC 정보 
+G11C : 
+G06F : 
