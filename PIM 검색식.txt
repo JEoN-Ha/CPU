@@ -31,7 +31,7 @@ OR (Data-Centric-Comput* OR Data-driven-Comput* OR DDC* OR (Data* ADJ (Centric* 
 
 중 : 
 AND((PIM* OR (Process* NEAR2 memor*) OR (in-memor* OR (in ADJ memor*) OR (IMDG* OR In-memory-data-grid* OR (In ADJ memor* ADJ data* ADJ grid*)) OR (프로세* NEAR2 메모리*) OR 인메모리* OR (인 ADJ 메모리*)))
-OR (NMP* OR (Near-Memory-Process*) OR (Near* NEAR2 Memor* NEAR2 Process*)  OR PNM* OR (Processing-Near-Memory*) OR (processor-near-memory*) OR (Proces* ADJ2 Near* ADJ2 Memor* ) OR (니어*  NEAR2 메모리* NEAR2 프로세*) OR (프로세* NEAR2 니어* NEAR2 메모리*))
+OR (NMP* OR (Near-Memory-Process*) OR (Near* ADJ2 Memor* ADJ2 Process*)  OR PNM* OR (Processing-Near-Memory*) OR (processor-near-memory*) OR (Proces* ADJ2 Near* ADJ2 Memor* ) OR (니어*  ADJ2 메모리* ADJ2 프로세*) OR (프로세* ADJ2 니어* ADJ2 메모리*) OR (니어 ADJ2 데이터) OR (near* ADJ2 data*) )
 OR (In-Storage-Processing* OR (Storage* ADJ Process*) OR ISP* OR (스토리지* NEAR2 프로세*))
 OR ((MDP* OR Memory-Driven-Process* OR (Memor* ADJ2 Driven* ADJ2 Process*) OR MCP* OR Memory-centric-Process* OR (Memor* ADJ2 Centric* ADJ2 Process*) OR (메모리* NEAR2 중심* NEAR2 컴퓨*)))
 )
@@ -65,3 +65,10 @@ Keyword(키워드)
 accelarator 또는 acceleration : 가속기(accelara*) - 추가해야될지 고민됨
 고대역폭 메모리(high-bandwidth memory)
 병복현상, 보틀넥(bottleneck)
+
+
+정리중(지연)
+processing near memory
+니어 ADJ2 데이터 
+near* NEAR2 process*
+NDP
