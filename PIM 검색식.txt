@@ -64,3 +64,4 @@ H04W : 무선 통신 네트워크 (방송 통신 H04H; 비선택적 통신을 �
 Keyword(키워드)
 accelarator 또는 acceleration : 가속기(accelara*) - 추가해야될지 고민됨
 고대역폭 메모리(high-bandwidth memory)
+병복현상, 보틀넥(bottleneck)
