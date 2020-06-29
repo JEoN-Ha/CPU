@@ -20,8 +20,7 @@ OR (ASIC* OR 에이직* OR 주문형반도체* OR application-specific* OR (appl
 OR (soc* OR system-on-chip* OR 에스오씨* OR 시스템온칩*)
 )
 
-(NDP OR DDC OR DCC) AND  AND ((인공지능 OR 지능형) OR (뉴로모픽 OR 크로스바) OR (매니코어) OR (시냅스) OR (FPGA) OR (ASIC) OR (SoC))
-
+((NDP) OR (DCC)) AND ((PIM) OR (in-memory) OR (in-memory-data=grid) OR (NMP) OR (ISP) OR (MDP)) AND ((인공지능) OR (지능형) OR (뉴로모픽) OR (시냅스) OR (크로스바) OR (매니코어) OR (FPGA) OR (ASIC) OR (soc))
 
 대 :
 (H01L*).IPC.
