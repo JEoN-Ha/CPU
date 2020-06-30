@@ -1,74 +1,28 @@
-﻿(H01L*).IPC.
-AND(
-(Near-Data-Process* OR NDP* OR (Near* ADJ Data* ADJ Process*)  OR (데이터* NEAR2 프로세*))
-OR (Data-Centric-Comput* OR Data-driven-Comput* OR DDC* OR (Data* ADJ (Centric* OR drive*) ADJ Comput*) OR (데이터* ADJ 중심* ADJ 컴퓨*) OR (데이터* NEAR2 컴퓨*))
+﻿(@AD>=20050101<=20200630) AND ((메모리 OR memory) NEAR3 (프로세* OR process*)).KEY. AND 
+
+
+(((뉴로* ADJ2 모픽*) OR neuromorphic*)
+
+OR (("spik* Neur* network") OR ("스파이* 신경망")) 
+
+OR (((매니 ADJ2 코어*) OR (Many ADJ2 core*)) AND GPU*) 
+
+OR (PIM* OR 인메모리* OR 인-메모리* OR "process* in memory" OR "프로세* 인 메모리*" OR "in memory" OR "in-memory")
+
+OR ((Near-Memory-Process*) OR ("Near Memory Process") OR ("니어 메모리 프로세*")  OR (Processing-Near-Memory*) OR (processor-near-memory*) OR ("Processing Near Memory") OR ("프로세* 니어 메모리"))
+
+OR ("high bandwidth memory" OR high-bandwidth-memory* OR "하이 밴드위* 메모리")
+
+OR (("near data process*") OR NDP OR (near-data-process*) OR ("니어 데이터 프로세*") 
+
+OR (near-dram-process*) OR ("near dram process*") OR ("니어 디램 프로세*") OR 니어-데이터* OR "근접 데이터 프로세*" OR 엔디피* )
+
+OR (In-Storage-Processing* OR ("in storage process*") OR ("스토리지 프로세*") OR 인-스토리지* OR 인스토리지*)
+
+OR (인공지능* OR DNN* OR SNN* OR 스파이킹* OR 딥러닝* OR 두뇌*OR 시냅스* OR "신경 모방" OR 뉴런* OR 뉴럴*) AND (가속기* OR accelerat* OR “병목 현상*” OR latency*) 
+
+OR ("Storage Class Memory" OR "스토리지 클래스")
+
+OR ("memory centric" OR "메모리 중심")
+
 )
-AND((PIM* OR (Process* NEAR2 memor*) OR (in-memor* OR (in ADJ memor*) OR (IMDG* OR In-memory-data-grid* OR (In ADJ memor* ADJ data* ADJ grid*)) OR (프로세* NEAR2 메모리*) OR 인메모리* OR (인 ADJ 메모리*)))
-OR (NMP* OR(Near-Memory-Process*) OR (Near* NEAR2 Memor* NEAR2 Process*)  OR PNM* OR (Processing-Near-Memory*) OR (processor-near-memory*)  OR (Proces* ADJ2 Near* ADJ2 Memor* ) OR (니어*  NEAR2 메모리* NEAR2 프로세*) OR (프로세* NEAR2 니어* NEAR2 메모리*))
-OR (In-Storage-Processing* OR (Storage* ADJ Process*) OR ISP* OR (스토리지* NEAR2 프로세*))
-OR ((MDP* OR Memory-Driven-Process* OR (Memor* ADJ2 Driven* ADJ2 Process*) OR MCP* OR Memory-centric-Process* OR (Memor* ADJ2 Centric* ADJ2 Process*) OR (메모리* NEAR2 중심* NEAR2 컴퓨*)))
-)
-AND (
-(인공* ADJ2 지능*) OR (artificial* ADJ2 intelligence*) OR (딥러닝* OR DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*)) OR 스파이*
-OR 지능*
-OR (뉴로* ADJ2 모픽*) OR neuromorphic*
-OR 시냅* OR synap* OR 뉴런* OR neuron* OR 뉴럴* OR neural* OR (뇌* OR 두뇌*) OR Brain* OR (신경* ADJ2 모방*)
-OR 크로스바* OR crossbar*
-OR (매니 ADJ2 코어*) OR (Many ADJ2 core*)
-OR (FPGA* OR 재구성* OR Reconfigurable* OR 에프피지* OR 에프피쥐*)
-OR (ASIC* OR 에이직* OR 주문형반도체* OR application-specific* OR (application ADJ2 specific))
-OR (soc* OR system-on-chip* OR 에스오씨* OR 시스템온칩*)
-)
-
-((NDP) OR (DCC)) AND ((PIM) OR (in-memory) OR (in-memory-data=grid) OR (NMP) OR (ISP) OR (MDP)) AND ((인공지능) OR (지능형) OR (뉴로모픽) OR (시냅스) OR (크로스바) OR (매니코어) OR (FPGA) OR (ASIC) OR (soc))
-
-대 :
-(H01L*).IPC.
-AND(
-(Near-Data-Process* OR NDP* OR (Near* ADJ Data* ADJ Process*)  OR (데이터* NEAR2 프로세*))
-OR (Data-Centric-Comput* OR Data-driven-Comput* OR DDC* OR (Data* ADJ (Centric* OR drive*) ADJ Comput*) OR (데이터* ADJ 중심* ADJ 컴퓨*) OR (데이터* NEAR2 컴퓨*))
-)
-
-중 : 
-AND((PIM* OR (Process* NEAR2 memor*) OR (in-memor* OR (in ADJ memor*) OR (IMDG* OR In-memory-data-grid* OR (In ADJ memor* ADJ data* ADJ grid*)) OR (프로세* NEAR2 메모리*) OR 인메모리* OR (인 ADJ 메모리*)))
-OR (NMP* OR (Near-Memory-Process*) OR (Near* ADJ2 Memor* ADJ2 Process*)  OR PNM* OR (Processing-Near-Memory*) OR (processor-near-memory*) OR (Proces* ADJ2 Near* ADJ2 Memor* ) OR (니어*  ADJ2 메모리* ADJ2 프로세*) OR (프로세* ADJ2 니어* ADJ2 메모리*) OR (니어 ADJ2 데이터) OR (near* ADJ2 data*) )
-OR (In-Storage-Processing* OR (Storage* ADJ Process*) OR ISP* OR (스토리지* NEAR2 프로세*))
-OR ((MDP* OR Memory-Driven-Process* OR (Memor* ADJ2 Driven* ADJ2 Process*) OR MCP* OR Memory-centric-Process* OR (Memor* ADJ2 Centric* ADJ2 Process*) OR (메모리* NEAR2 중심* NEAR2 컴퓨*)))
-)
-
-소 : 
-AND (
-(인공* ADJ2 지능*) OR (artificial* ADJ2 intelligence*) OR (딥러닝* OR DNN* OR (Deep* ADJ2 neural* ADJ2 network*) OR SNN* OR (Spik* ADJ2 neural* ADJ2 network*)) OR 스파이*
-OR 지능*
-OR (뉴로* ADJ2 모픽*) OR neuromorphic*
-OR 시냅* OR synap* OR 뉴런* OR neuron* OR 뉴럴* OR neural* OR (뇌* OR 두뇌*) OR Brain* OR (신경* ADJ2 모방*)
-OR 크로스바* OR crossbar*
-OR (매니 ADJ2 코어*) OR (Many ADJ2 core*)
-OR (FPGA* OR 재구성* OR Reconfigurable* OR 에프피지* OR 에프피쥐*)
-OR (ASIC* OR 에이직* OR 주문형반도체* OR application-specific* OR (application ADJ2 specific))
-OR (soc* OR system-on-chip* OR 에스오씨* OR 시스템온칩*)
-)
-
-대 (반도체 용어) 
-중 (인공지능)
-소 (뉴로모픽 크로스바 전문적인 용어)
-
-보류 : STDP (Spiking* ADJ2 Timing* ADJ2 Dependent* ADJ2 Plasticity*)
-
-IPC 정보 
-G11C : 정적기억(기록매체와 변환기의 상대운동에 의한 정보의 기억 G11B; 기억을 위한 반도체 장치 H01L; 일반적인 펄스기술 H03K, 예. 전자스위치 H03K 17/00)
-G06F : 전기에 의한 디지털 데이터처리(특정계산모델방식의 컴퓨터시스템 G06N)
-G06N : 특정 계산모델 방식의 컴퓨터시스템 
-H04W : 무선 통신 네트워크 (방송 통신 H04H; 비선택적 통신을 위한 무선 링크를 사용하는 통신 시스템, 예. 무선 증설 H04M-001/72)
-H04L : 디지털 정보의 전송, 예.전신통신(전신(telegraphic) 및 전화통신의 공통장치 H04M)
-Keyword(키워드)
-accelarator 또는 acceleration : 가속기(accelara*) - 추가해야될지 고민됨
-고대역폭 메모리(high-bandwidth memory)
-병복현상, 보틀넥(bottleneck)
-
-
-정리중(지연)
-processing near memory
-니어 ADJ2 데이터 
-near* NEAR2 process*
-NDP
