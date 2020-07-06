@@ -2,6 +2,9 @@
 OR 롤러블* OR Rollable OR 커브드* OR curved OR 케이블* OR Cable OR 프린티드* OR printable OR stretchable OR 스트레처블* OR 늘어나는*) 
 AND (배터리* OR (2차* ADJ2 전지*) OR battery*)
 
+한국 : 1310건
+미국 : 2583건
+
 (굽힘 가능한) AND (배터리)
 
 ((굽힘* ADJ2 가능한*) OR 플렉시블* OR 플렉서블* OR 가요성 OR flexible OR 밴더블* OR Bendable OR 폴더블* OR Foldable OR 롤러블* OR Rollable OR 커브드* OR curved) OR 케이블* OR Cable
