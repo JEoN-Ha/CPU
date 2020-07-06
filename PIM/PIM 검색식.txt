@@ -22,3 +22,6 @@ OR ("Storage Class" OR "스토리지 클래스")
 OR ((memory ADJ centric) OR (메모리 ADJ 중심*))
 
 )
+
+- 한국에서는 "in memory" 추가함
+- 위의 식은 미국식
