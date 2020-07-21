@@ -1,0 +1,15 @@
+neuromorphic
+in-memory
+memory
+고대역폭
+near
+SCM
+Storage class
+저항성
+근접
+processing
+neural
+HBM
+스파이크
+spiking
+many-core
