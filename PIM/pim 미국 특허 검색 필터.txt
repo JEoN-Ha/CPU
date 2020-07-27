@@ -1,10 +1,10 @@
-neuromorphic
+﻿neuromorphic
 in-memory
 memory
 고대역폭
 near
 SCM
-Storage class
+Storage class / 기억 클래스 메모리
 저항성
 근접
 processing
@@ -15,6 +15,7 @@ spiking
 many-core
 MDP
 NDP
+
 
 일단 메모리에 안걸리면 다 노이즈라고 생각해서 필터 저렇게 썼고, 필터 중에 한 글자라도 안 포함된건 일단 다 삭제!
 엑셀에서 기술분류, 특징 열은 출원번호 옆에다가 놓음! 
