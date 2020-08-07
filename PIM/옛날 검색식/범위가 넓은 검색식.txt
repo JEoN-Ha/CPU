@@ -1,0 +1,26 @@
+(@AD>=20050101<=20200630) AND ((메모리 OR memory) OR (프로세* OR process*)).KEY. AND 
+
+
+(((뉴로 ADJ2 모픽*) OR neuromorphic*)
+
+OR ((spiking) OR (스파이킹) ADJ ( neural OR 뉴럴* OR 신경망*))
+
+OR (((매니코어*)) AND GPU*) 
+
+OR ("PIM(Process*"  OR 인메모리* OR 인-메모리* OR "in memory" OR “in-memory”)
+
+OR ("니어 메모리" OR "near memory")
+
+OR ((“high* bandwidth” ADJ2 memory) OR “대역폭 메모리”)
+ 
+OR ((Near* ADJ2 Data ADJ2 Process*) OR ((근접 OR 니어) ADJ2 데이터 ADJ2 프로세*))
+
+OR (Near* ADJ Data ADJ Process*)
+
+OR((In ADJ storage ADJ processing) OR 인스토리지* OR 인-스토리지*)
+
+OR ("Storage Class" OR "스토리지 클래스")
+
+OR ((memory ADJ centric) OR (메모리 ADJ 중심*))
+
+)
